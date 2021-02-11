@@ -1,486 +1,486 @@
 @charset "UTF-8";
 /* CSS Document */
 .main{
-	background: #fff url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/background_agreeables_grey.png) repeat;
-}
-
-.container {
-	min-height: 1000px !important;
-}
-
-.post_wrap{position:relative;}
-.post_box{
-	border: 5px solid black;
-	border-radius: 20px;
-	background:#fff;
-	-webkit-box-shadow: -11px 11px 0 black;
-	-moz-box-shadow: -11px 11px 0 black;
-	box-shadow: -11px 11px 0 black;
-}
-.post_header_photo{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/post_pics.png) no-repeat top center;
-	width:322px;
-	height:83px;
-	overflow:hidden;
-	position:absolute;
-	top:0;
-	left:102px;
-}
-.post_header_text{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/post_text.png) no-repeat top center;
-	width:322px;
-	height:83px;
-	overflow:hidden;
-	position:absolute;
-	top:0;
-	left:102px;
-}
-.post_header_text h3 a{
-	display:none;
-}
-.post_header_quotes{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/post_quotes.png) no-repeat top center;
-	width:322px;
-	height:83px;
-	overflow:hidden;
-	position:absolute;
-	top:0;
-	left:102px;
-}
-.post_header_link{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/post_links.png) no-repeat top center;
-	width:322px;
-	height:83px;
-	overflow:hidden;
-	position:absolute;
-	top:0;
-	left:102px;
-}
-.post_header_video{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/post_videos.png) no-repeat top center;
-	width:322px;
-	height:83px;
-	overflow:hidden;
-	position:absolute;
-	top:0;
-	left:102px;
-}
-.post_header_audio{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/post_songs.png) no-repeat top center;
-	width:322px;
-	height:83px;
-	overflow:hidden;
-	position:absolute;
-	top:0;
-	left:102px;
-}
-.post_header_chat h3 a{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/post_chat.png) no-repeat top center;
-	width:322px;
-	height:0px;
-	padding-top:83px;
-	overflow:hidden;
-	position:absolute;
-	top:0;
-	left:102px;
-}
-.post_header_about h3 a{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/post_about.png) no-repeat top center;
-	width:322px;
-	height:0px;
-	padding-top:83px;
-	overflow:hidden;
-	position:absolute;
-	top:0;
-	left:102px;
-}
-.post_header_contact h3 a{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/post_contact.png) no-repeat top center;
-	width:322px;
-	height:0px;
-	padding-top:83px;
-	overflow:hidden;
-	position:absolute;
-	top:0;
-	left:102px;
-}
-.post_box img{
-	max-width:404px;
-	height:auto;
-}
-#header{
-	background:#29abe3 url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/header_bkgrnd.png) repeat;
-	margin:0;
-	padding:0;
-}
-#header_inner{
-	margin: 0 auto;
-	height:248px;
-	width:1020px;
-	position: relative;
-}
-#header_logo{
-	margin:0;
-	padding:0;
-}
-h2#header_logo a{
-	background:url(http://www.outrageousapp.com/wp-content/uploads/2013/12/agreeables_header.png) no-repeat top center;
-	width:1020px;
-	padding-top:248px;
-	max-height:0px;
-	overflow:hidden;
-	display:block;
-	position:relative;
-}
-#header_logo_ie{
-	background:url(http://www.outrageousapp.com/wp-content/uploads/2013/12/agreeables_header.png) no-repeat top center;
-	width:1020px;
-	max-height:248px;
-}
-#header_logo_ie h2#header_logo a{
-	font-size:0px;
-	margin:0;
-	padding:0;
-	height:248px;
-	width:1020px;
-}
-#nav{
-	border-top:14px solid #000;
-	border-bottom: 14px solid #000;
-	background:#f9f400;
-	margin:0;
-	padding:0;
-	overflow:hidden;
-}
-#main_nav{
-	margin:0 auto;
-	padding:0;
-	width:960px;
-	height:52px;
-	list-style-type:none;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:24px;
-	overflow:hidden;
-  text-align: center;
-}
-#main_nav li{
-	margin:0;
-	padding:0;
-	display: inline-block;
-}
-#main_nav a{
-	float:left;
-	text-align:center;
-	width:auto;
-	padding:0;
-	line-height:52px;
-	color:#000000;
-	text-transform:uppercase;
-	text-decoration:none;
-	font-size:35px;
-	font-family: 'InternationalSuperHeroRegular' , sans-serif;
-}
-#main_nav a:hover{
-	background:#ec008c;
-	color:#ffffff;
-}
-
-#main_nav .nav_home a{
-	width:104px;
-}
-#main_nav .nav_songs a{
-	width:112px;
-}
-#main_nav .nav_pics a{
-	width:94px;
-}
-#main_nav  .nav_text a{
-	width:98px;
-}
-#main_nav .nav_quotes a{
-	width:120px;
-}
-#main_nav .nav_links a{
-	width:106px;
-}
-#main_nav .nav_videos a{
-	width:116px;
-}
-#main_nav .nav_chat, #main_nav .nav_links {
-display: none;
-}
-#main_nav .nav_chat a{
-	width:100px;
-}
-#main_nav .nav_about a{
-	width:110px;
-}
-
-h2#follow_tumblr{
-	margin:0;
-	padding:0;
-}
-h2#follow_tumblr a{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/follow_tumblr.png) no-repeat;
-	width:155px;
-	padding-top:90px;
-	height:0;
-	overflow:hidden;
-	display:block;
-}
-h2#follow_facebook{
-	margin:0;
-	padding:0;
-}
-h2#follow_facebook a{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/follow_facebook.png) no-repeat;
-	width:155px;
-	padding-top:90px;
-	height:0;
-	overflow:hidden;
-	display:block;
-}
-h2#follow_twitter{
-	margin:0;
-	padding:0;
-}
-h2#follow_twitter a{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/follow_twitter.png) no-repeat;
-	width:155px;
-	padding-top:90px;
-	height:0;
-	overflow:hidden;
-	display:block;
-}
-h2#follow_youtube{
-	margin:0;
-	padding:0;
-}
-h2#follow_youtube a{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/follow_youtube.png) no-repeat;
-	width:155px;
-	padding-top:90px;
-	height:0;
-	overflow:hidden;
-	display:block;
-}
-
-#sidebar_ie h2 a{
-	font-size:0px;
-}
-
-.mp3_player{
-	border: 8px solid black;
-	border-radius: 20px;
-	background:#fff;
-	-webkit-box-shadow: -11px 11px 0 black;
-	-moz-box-shadow: -11px 11px 0 black;
-	box-shadow: -11px 11px 0 black;
-	height:374px;
-	width:282px;
-	margin-left:18px;
-	margin-top:50px !important;
-	position:relative;
-}
-#mp3_download{
-	position:absolute;
-	width:221px;
-	height:39px;
-	top:-40px;
-	left:10px;
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/download.png) no-repeat;
-}
-#mp3_player{
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:279px;
-	height:368px;
-	border-radius:10px;
-	border:3px solid #00a9ec;
-	background:#00a9ec;
-}
-.inside_mp3{
-	position:absolute;
-	left:5px;
-	top:5px;
-}
-.agree_search{
-	background:url(http://www.outrageousapp.com/wp-content/themes/outrageous/agreeables/images/search.png) no-repeat top center;
-	width:150px;
-	height:83px;
-	margin:0 auto;
-	position:relative;
-}
-.agree_input{
-	position:absolute;
-	bottom:-5px;
-	left:13px;
-	border:none !important;
-}
-.agree_search input{
-	padding:0px;
-	width:127px;
-	height:30px;
-	border:3px solid #000 !important;
-	border-radius:10px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-}
-.contact_agree{
-	width:151px;
-	height:63px;
-	margin:0 auto;
-	position:relative;
-	display:block;
-}
-.post_tags{
-	width:300px;
-}
-.tags{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	width:300px;
-}
-
-.tags:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.tags li{
-	list-style-type:none;
-	float:left;
-	margin:0;
-	padding:0;
-}
-.tags li a{
-	text-decoration:none;
-	color:#333;
-	font-size:11px;
-	padding: 0 5px;
-}
-.web_like{
-	width:30px;
-	float:right;
-	height:20px;
-}
-.social_share{
-	list-style-type:none;
-	float:left;
-	margin:0;
-	padding:0;
-}
-.social_share li{
-	list-style-type:none;
-	float:left;
-	margin:0;
-	padding:6px 0;
-}
-#footer{
-	list-style-type:none;
-	float:left;
-	margin:0;
-	padding:0;
-	font-size:34px;
-	font-family: 'InternationalSuperHeroRegular' , sans-serif;
-}
-
-#footer li{
-	list-style-type:none;
-	float:left;
-	margin:0;
-	padding:5px;
-}
-#footer li a{
-	border:2px solid #000;
-	color:#fff;
-	border-radius:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	padding:5px;
-	margin:2px;
-	background: rgb(248,198,20);  /* Old browsers */
-	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4YzYxNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU5JSIgc3RvcC1jb2xvcj0iI2JlMDA4MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-	background: -moz-linear-gradient(top, rgba(248,198,20,1) 0%, rgba(190,0,129,1) 59%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,198,20,1)), color-stop(59%,rgba(190,0,129,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(248,198,20,1) 0%,rgba(190,0,129,1) 59%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(248,198,20,1) 0%,rgba(190,0,129,1) 59%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(248,198,20,1) 0%,rgba(190,0,129,1) 59%); /* IE10+ */
-	background: linear-gradient(top, rgba(248,198,20,1) 0%,rgba(190,0,129,1) 59%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8c614', endColorstr='#be0081',GradientType=0 ); /* IE6-8 */
-}
-.album_art img{
-	width:204px;
-	height:auto;
-	margin-bottom:5px;
-}
-.permalink-agree{
-	font-size:11px;
-	float:right;
-}
-.searchresults {
-	padding:20px;
-	font-size:18px;
-	font-style:italic;
-}
-
-.iframe-shows {
-    position: absolute;
-	left: 0;
-	top: 10px;
-}
-
-.live-shows {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 149px;
-}
-
-.live-shows-top {
-    background: url("http://www.outrageousapp.com/wp-content/uploads/2013/09/live-show-bg-top.png") no-repeat scroll 0 0 transparent;
-    height: 32px;
-    width: 149px;
-}
-
-.live-shows-bottom {
-    background: url("http://www.outrageousapp.com/wp-content/uploads/2013/09/live-show-bg-bottom.png") no-repeat scroll 0 0 transparent;
-    height: 21px;
-    width: 149px;
-}
-
-.live-shows > ul {
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-    background-image: url("http://www.outrageousapp.com/wp-content/uploads/2013/09/live-show-bg.png");
-	background-repeat: repeat-y;
-    -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.live-shows li {
-    font-size: 11px;
-    line-height: 15px;
-    padding: 10px 20px;
-    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
-    font-weight: bold;
-}
-
-.live-shows li a {
-    color: #EC008C;
-    text-decoration: none;
-}
-
-.live-shows li a:hover {
-    color: #0099ff;
-    text-decoration: none;
-}
+        	background: #fff url(https://i.imgur.com/Z839IVk.png) repeat;
+        }
+        
+        .container {
+        	min-height: 1000px !important;
+        }
+        
+        .post_wrap{position:relative;}
+        .post_box{
+        	border: 5px solid black;
+        	border-radius: 20px;
+        	background:#fff;
+        	-webkit-box-shadow: -11px 11px 0 black;
+        	-moz-box-shadow: -11px 11px 0 black;
+        	box-shadow: -11px 11px 0 black;
+        }
+        .post_header_photo{
+        	background:url(https://i.imgur.com/JLEtkj3.png) no-repeat top center;
+        	width:322px;
+        	height:83px;
+        	overflow:hidden;
+        	position:absolute;
+        	top:0;
+        	left:102px;
+        }
+        .post_header_text{
+        	background:url(https://i.imgur.com/emRYvIS.png) no-repeat top center;
+        	width:322px;
+        	height:83px;
+        	overflow:hidden;
+        	position:absolute;
+        	top:0;
+        	left:102px;
+        }
+        .post_header_text h3 a{
+        	display:none;
+        }
+        .post_header_quotes{
+        	background:url(https://i.imgur.com/OtAPTZR.png) no-repeat top center;
+        	width:322px;
+        	height:83px;
+        	overflow:hidden;
+        	position:absolute;
+        	top:0;
+        	left:102px;
+        }
+        .post_header_link{
+        	background:url(https://i.imgur.com/zXPVmVD.png) no-repeat top center;
+        	width:322px;
+        	height:83px;
+        	overflow:hidden;
+        	position:absolute;
+        	top:0;
+        	left:102px;
+        }
+        .post_header_video{
+        	background:url(https://i.imgur.com/in15DLe.png) no-repeat top center;
+        	width:322px;
+        	height:83px;
+        	overflow:hidden;
+        	position:absolute;
+        	top:0;
+        	left:102px;
+        }
+        .post_header_audio{
+        	background:url(https://i.imgur.com/NWyX7Nf.png) no-repeat top center;
+        	width:322px;
+        	height:83px;
+        	overflow:hidden;
+        	position:absolute;
+        	top:0;
+        	left:102px;
+        }
+        .post_header_chat h3 a{
+        	background:url(https://i.imgur.com/jCT5IYB.png) no-repeat top center;
+        	width:322px;
+        	height:0px;
+        	padding-top:83px;
+        	overflow:hidden;
+        	position:absolute;
+        	top:0;
+        	left:102px;
+        }
+        .post_header_about h3 a{
+        	background:url(https://i.imgur.com/EqvVnnh.png) no-repeat top center;
+        	width:322px;
+        	height:0px;
+        	padding-top:83px;
+        	overflow:hidden;
+        	position:absolute;
+        	top:0;
+        	left:102px;
+        }
+        .post_header_contact h3 a{
+        	background:url(https://i.imgur.com/6FiPjmG.png) no-repeat top center;
+        	width:322px;
+        	height:0px;
+        	padding-top:83px;
+        	overflow:hidden;
+        	position:absolute;
+        	top:0;
+        	left:102px;
+        }
+        .post_box img{
+        	max-width:404px;
+        	height:auto;
+        }
+        #header{
+        	background:#29abe3 url(https://i.imgur.com/SJGs16A.png) repeat;
+        	margin:0;
+        	padding:0;
+        }
+        #header_inner{
+        	margin: 0 auto;
+        	height:248px;
+        	width:1020px;
+        	position: relative;
+        }
+        #header_logo{
+        	margin:0;
+        	padding:0;
+        }
+        h2#header_logo a{
+        	background:url(https://i.imgur.com/BREKgEW.png) no-repeat top center;
+        	width:1020px;
+        	padding-top:248px;
+        	max-height:0px;
+        	overflow:hidden;
+        	display:block;
+        	position:relative;
+        }
+        #header_logo_ie{
+        	background:url(https://i.imgur.com/BREKgEW.png) no-repeat top center;
+        	width:1020px;
+        	max-height:248px;
+        }
+        #header_logo_ie h2#header_logo a{
+        	font-size:0px;
+        	margin:0;
+        	padding:0;
+        	height:248px;
+        	width:1020px;
+        }
+        #nav{
+        	border-top:14px solid #000;
+        	border-bottom: 14px solid #000;
+        	background:#f9f400;
+        	margin:0;
+        	padding:0;
+        	overflow:hidden;
+        }
+        #main_nav{
+        	margin:0 auto;
+        	padding:0;
+        	width:960px;
+        	height:52px;
+        	list-style-type:none;
+        	font-family:Arial, Helvetica, sans-serif;
+        	font-size:24px;
+        	overflow:hidden;
+          text-align: center;
+        }
+        #main_nav li{
+        	margin:0;
+        	padding:0;
+        	display: inline-block;
+        }
+        #main_nav a{
+        	float:left;
+        	text-align:center;
+        	width:auto;
+        	padding:0;
+        	line-height:52px;
+        	color:#000000;
+        	text-transform:uppercase;
+        	text-decoration:none;
+        	font-size:35px;
+        	font-family: 'InternationalSuperHeroRegular' , sans-serif;
+        }
+        #main_nav a:hover{
+        	background:#ec008c;
+        	color:#ffffff;
+        }
+        
+        #main_nav .nav_home a{
+        	width:104px;
+        }
+        #main_nav .nav_songs a{
+        	width:112px;
+        }
+        #main_nav .nav_pics a{
+        	width:94px;
+        }
+        #main_nav  .nav_text a{
+        	width:98px;
+        }
+        #main_nav .nav_quotes a{
+        	width:120px;
+        }
+        #main_nav .nav_links a{
+        	width:106px;
+        }
+        #main_nav .nav_videos a{
+        	width:116px;
+        }
+        #main_nav .nav_chat, #main_nav .nav_links {
+        display: none;
+        }
+        #main_nav .nav_chat a{
+        	width:100px;
+        }
+        #main_nav .nav_about a{
+        	width:110px;
+        }
+        
+        h2#follow_tumblr{
+        	margin:0;
+        	padding:0;
+        }
+        h2#follow_tumblr a{
+        	background:url(https://i.imgur.com/Q0iqn15.png) no-repeat;
+        	width:155px;
+        	padding-top:90px;
+        	height:0;
+        	overflow:hidden;
+        	display:block;
+        }
+        h2#follow_facebook{
+        	margin:0;
+        	padding:0;
+        }
+        h2#follow_facebook a{
+        	background:url(https://i.imgur.com/cmSuzkh.png) no-repeat;
+        	width:155px;
+        	padding-top:90px;
+        	height:0;
+        	overflow:hidden;
+        	display:block;
+        }
+        h2#follow_twitter{
+        	margin:0;
+        	padding:0;
+        }
+        h2#follow_twitter a{
+        	background:url(https://i.imgur.com/CKRhzAZ.png) no-repeat;
+        	width:155px;
+        	padding-top:90px;
+        	height:0;
+        	overflow:hidden;
+        	display:block;
+        }
+        h2#follow_youtube{
+        	margin:0;
+        	padding:0;
+        }
+        h2#follow_youtube a{
+        	background:url(https://i.imgur.com/sPCWj6h.png) no-repeat;
+        	width:155px;
+        	padding-top:90px;
+        	height:0;
+        	overflow:hidden;
+        	display:block;
+        }
+        
+        #sidebar_ie h2 a{
+        	font-size:0px;
+        }
+        
+        .mp3_player{
+        	border: 8px solid black;
+        	border-radius: 20px;
+        	background:#fff;
+        	-webkit-box-shadow: -11px 11px 0 black;
+        	-moz-box-shadow: -11px 11px 0 black;
+        	box-shadow: -11px 11px 0 black;
+        	height:374px;
+        	width:282px;
+        	margin-left:18px;
+        	margin-top:50px !important;
+        	position:relative;
+        }
+        #mp3_download{
+        	position:absolute;
+        	width:221px;
+        	height:39px;
+        	top:-40px;
+        	left:10px;
+        	background:url("https://i.imgur.com/GoAgnVu.png") no-repeat;
+        }
+        #mp3_player{
+        	position:absolute;
+        	top:0px;
+        	left:0px;
+        	width:279px;
+        	height:368px;
+        	border-radius:10px;
+        	border:3px solid #00a9ec;
+        	background:#00a9ec;
+        }
+        .inside_mp3{
+        	position:absolute;
+        	left:5px;
+        	top:5px;
+        }
+        .agree_search{
+        	background:url("https://i.imgur.com/K4sZSAE.png") no-repeat top center;
+        	width:150px;
+        	height:83px;
+        	margin:0 auto;
+        	position:relative;
+        }
+        .agree_input{
+        	position:absolute;
+        	bottom:-5px;
+        	left:13px;
+        	border:none !important;
+        }
+        .agree_search input{
+        	padding:0px;
+        	width:127px;
+        	height:30px;
+        	border:3px solid #000 !important;
+        	border-radius:10px;
+        	-moz-border-radius:10px;
+        	-webkit-border-radius:10px;
+        }
+        .contact_agree{
+        	width:151px;
+        	height:63px;
+        	margin:0 auto;
+        	position:relative;
+        	display:block;
+        }
+        .post_tags{
+        	width:300px;
+        }
+        .tags{
+        	list-style-type:none;
+        	margin:0;
+        	padding:0;
+        	width:300px;
+        }
+        
+        .tags:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        .tags li{
+        	list-style-type:none;
+        	float:left;
+        	margin:0;
+        	padding:0;
+        }
+        .tags li a{
+        	text-decoration:none;
+        	color:#333;
+        	font-size:11px;
+        	padding: 0 5px;
+        }
+        .web_like{
+        	width:30px;
+        	float:right;
+        	height:20px;
+        }
+        .social_share{
+        	list-style-type:none;
+        	float:left;
+        	margin:0;
+        	padding:0;
+        }
+        .social_share li{
+        	list-style-type:none;
+        	float:left;
+        	margin:0;
+        	padding:6px 0;
+        }
+        #footer{
+        	list-style-type:none;
+        	float:left;
+        	margin:0;
+        	padding:0;
+        	font-size:34px;
+        	font-family: 'InternationalSuperHeroRegular' , sans-serif;
+        }
+        
+        #footer li{
+        	list-style-type:none;
+        	float:left;
+        	margin:0;
+        	padding:5px;
+        }
+        #footer li a{
+        	border:2px solid #000;
+        	color:#fff;
+        	border-radius:5px;
+        	-moz-border-radius:5px;
+        	-webkit-border-radius:5px;
+        	padding:5px;
+        	margin:2px;
+        	background: rgb(248,198,20);  /* Old browsers */
+        	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4YzYxNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU5JSIgc3RvcC1jb2xvcj0iI2JlMDA4MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+        	background: -moz-linear-gradient(top, rgba(248,198,20,1) 0%, rgba(190,0,129,1) 59%); /* FF3.6+ */
+        	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,198,20,1)), color-stop(59%,rgba(190,0,129,1))); /* Chrome,Safari4+ */
+        	background: -webkit-linear-gradient(top, rgba(248,198,20,1) 0%,rgba(190,0,129,1) 59%); /* Chrome10+,Safari5.1+ */
+        	background: -o-linear-gradient(top, rgba(248,198,20,1) 0%,rgba(190,0,129,1) 59%); /* Opera 11.10+ */
+        	background: -ms-linear-gradient(top, rgba(248,198,20,1) 0%,rgba(190,0,129,1) 59%); /* IE10+ */
+        	background: linear-gradient(top, rgba(248,198,20,1) 0%,rgba(190,0,129,1) 59%); /* W3C */
+        	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8c614', endColorstr='#be0081',GradientType=0 ); /* IE6-8 */
+        }
+        .album_art img{
+        	width:204px;
+        	height:auto;
+        	margin-bottom:5px;
+        }
+        .permalink-agree{
+        	font-size:11px;
+        	float:right;
+        }
+        .searchresults {
+        	padding:20px;
+        	font-size:18px;
+        	font-style:italic;
+        }
+        
+        .iframe-shows {
+            position: absolute;
+        	left: 0;
+        	top: 10px;
+        }
+        
+        .live-shows {
+        	position: absolute;
+        	left: 0;
+        	top: 0;
+        	width: 149px;
+        }
+        
+        .live-shows-top {
+            background: url("https://i.imgur.com/UYkybBX.png") no-repeat scroll 0 0 transparent;
+            height: 32px;
+            width: 149px;
+        }
+        
+        .live-shows-bottom {
+            background: url("https://i.imgur.com/Pcsyw1v.png") no-repeat scroll 0 0 transparent;
+            height: 21px;
+            width: 149px;
+        }
+        
+        .live-shows > ul {
+            list-style: none outside none;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-image: url("https://i.imgur.com/Vfbtb4K.png");
+        	background-repeat: repeat-y;
+            -webkit-box-sizing: border-box;
+        	-moz-box-sizing: border-box;
+        	-ms-box-sizing: border-box;
+        	box-sizing: border-box;
+        }
+        
+        .live-shows li {
+            font-size: 11px;
+            line-height: 15px;
+            padding: 10px 20px;
+            font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+            font-weight: bold;
+        }
+        
+        .live-shows li a {
+            color: #EC008C;
+            text-decoration: none;
+        }
+        
+        .live-shows li a:hover {
+            color: #0099ff;
+            text-decoration: none;
+        }
