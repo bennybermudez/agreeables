@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mp3player width = "250" height = "330">
+	
+	<background fillColor = "0xe4006f" strokeColor = "0x5c5e61" />
+	
+	<distBetweenElements>3</distBetweenElements> <!-- margin around and the distance between the player and the playlist -->
+	
+	<!-- AUDIO PLAYER settings-->
+	<audioplayer width = "" height = "95">
+		<autoStart>false</autoStart> <!-- to autostart the player or not when an album is selected -->
+		<autoPlay>true</autoPlay> <!-- when a sound is loaded in the player to automatically start playing-->
+		
+		<startVolume>50</startVolume>
+		<bufferTime></bufferTime>
+		
+		<background fillColor = "0x00a9ec" strokeColor = "0x5c5e61"></background>
+		
+		<!-- CONTROLS GENERAL SETTINGS -->
+		<controlsHeight>16</controlsHeight> <!-- the width will be proportionally resized, this will be used also for the buttons on the right side of the controller -->
+		
+		<spaceBetweenControls>6</spaceBetweenControls>
+		
+		<controlsNormalAlpha>100</controlsNormalAlpha>
+		<controlsOverAlpha time="">100</controlsOverAlpha> <!-- "time" attribute means in how many seconds to fade the buttons on roll over/out -->
+		
+		<controlsBackStrokeColor over = "">0x5c5e61</controlsBackStrokeColor>
+		<controlsBackFillColor over = "0xFFFFFF">0xe4006f</controlsBackFillColor>
+		
+		<!-- this 2 will be used only for the buttons on the left side of the controller -->
+		<controlsSignStrokeColor>0x5c5e61</controlsSignStrokeColor>
+		<controlsSignFillColor>0x0xe4006f</controlsSignFillColor>
+		
+		<!-- play / pause toggle dimension: this will be used as height for the song info -->
+		<playToggleDimension>40</playToggleDimension>
+		
+		<!-- rewind and forward buttons settings -->
+		<playSkipControls useAsPrevNext = "true" rewindTime = "" forwardTime = "">true</playSkipControls>
+		
+		<!-- stop button settings -->
+		<stopBt>true</stopBt>
+		
+		<!-- artist and song name settings -->
+		<songInfo>
+			<artistColor>0XFFFFFF</artistColor>
+			
+			<titleColor>0XFFFFFF</titleColor>
+			
+			<backFillColor>0xe4006f</backFillColor>
+			<backStrokeColor>0x5c5e61</backStrokeColor>
+		</songInfo>
+		
+		<timeColor>0x535351</timeColor>
+		
+		<playBar>
+			<playBarHeight>8</playBarHeight>
+			
+			<playBarScrubColor>0xFFFFFF</playBarScrubColor>
+			
+			<playedBarColor>0xe4006f</playedBarColor>
+			<downloadedBarColor>0xffffff</downloadedBarColor>
+			<backBarColor>0xe4006f</backBarColor>
+		</playBar>
+		
+		<volumeControl vertical = "false" scrub = "true" enable = "true">
+			
+			<backStrokeColor>0x5c5e61</backStrokeColor>
+			<backFillColor>0x00a9ec</backFillColor>
+		
+			<volumeBtColor>0xFFFFFF</volumeBtColor>
+			
+			<volumeScrubColor>0xFFFFFF</volumeScrubColor>
+			
+			<volumeBarHeight>8</volumeBarHeight>
+			<volumeLevelBarColor>0xFFFFFF</volumeLevelBarColor>
+			<volumeBackBarColor>0xe4006f</volumeBackBarColor>
+			<volumeBarBackColor strokeColor = ""></volumeBarBackColor> <!-- used when is vertical -->
+		</volumeControl>
+		
+		<shareButton color = "0xFFFFFF">true</shareButton>
+		
+		<shuffleButton color = "0xFFFFFF">true</shuffleButton>
+		
+		<loopButton color = "0xFFFFFF">true</loopButton><!-- it has 3 states: no repeat, repeat song, repeat list -->
+		
+	</audioplayer>		
+	
+	<!-- LIST settings -->
+	<list width = "100" height = "" marginAround = "3">
+		
+		<backColor strokeColor = "0x5c5e61">0xFFFFFF</backColor>
+	
+		<!-- general settings -->
+		<nrColumns>1</nrColumns>
+		<nrLines></nrLines>
+		
+		<distanceX>4</distanceX> <!-- distance between list and scroller -->
+		<distanceY>2</distanceY> <!-- distance between items on Y axis-->
+		
+		<itemDimension>35</itemDimension>
+		<itemContentDistX>5</itemContentDistX> <!-- distance between elements inside an item on X axis -->
+		
+		<!-- item's inside elements settings -->
+		<artistColor over="0xFFFFFF">0xe4006f</artistColor>
+		<titleColor over = "0xe4006f">0x5c5e61</titleColor>
+		
+		<numberTextColor over = "0xFFFFFF">-1</numberTextColor>
+		<numberBackgroundColor over = "0x5c5e61">-1</numberBackgroundColor> <!-- if negative the background will not appear -->
+		
+		<currency>$</currency> <!-- currency that appears on the items price ($ €) -->
+		<buyBtText normalColor = "0xFFFFFF" overColor = "0x00a9ec"></buyBtText>
+		<buyBtBackgroundColor over = "0xFFFFFF">0xe4006f</buyBtBackgroundColor> <!-- if negative the background will not appear -->
+		
+		<durationTextColor over = "0xFFFFFF">0x353533</durationTextColor>
+		<durationBackgroundColor over = "0x5c5e61">-1</durationBackgroundColor> <!-- if negative the background will not appear -->
+		
+		<itemFillColor>0xFFFFFF</itemFillColor>
+		<itemFillOverColor>0x00a9ec</itemFillOverColor>
+		
+		<itemStrokeColor>0x5c5e61</itemStrokeColor> <!-- if nevative the stroke will not appear; this will be used also for the separators -->
+		<itemStrokeOverColor></itemStrokeOverColor>
+		
+		<itemOverTime></itemOverTime> <!-- in seconds, how much time takes to change to over state and back -->
+		
+		
+		<!-- scroll settings -->
+		<scrollDimension>4</scrollDimension>
+		
+		<scrollOfsset>0</scrollOfsset>
+		
+		<scrollBarBackColor strokeColor = "0xBCBEC0">0xD1D3D4</scrollBarBackColor> <!-- if stroke color is negative it will not appear(0xBCBEC0) -->
+		
+		<scrollScrubColor>0x464746</scrollScrubColor>			
+	</list>
+	
+	<!-- SHARE window settings -->
+	<shareWindow verticalDistBetween = "">
+		<backColor stroke = "0xDDDDDD" fill = ""></backColor>
+		
+		<title color = "0x5c5e61" dimension = ""><![CDATA[Copy code and include it in your html code:]]></title>
+		
+		<code color = "0x5c5e61" dimension = "" backFillColor = "" backStrokeColor = "" />
+		
+		<closeBt marginAround="" backNormalColor = "0x5c5e61" backOverColor = "0xFFFFFF" signNormalColor = "0xFFFFFF" signOverColor = "0x5c5e61" />
+		
+		<copyBt backNormalColor = "0x5c5e61" backOverColor = "0xFFFFFF" textNormalColor = "0xFFFFFF" textOverColor = "0x5c5e61"><![CDATA[]]></copyBt>
+	</shareWindow>		
+
+</mp3player>

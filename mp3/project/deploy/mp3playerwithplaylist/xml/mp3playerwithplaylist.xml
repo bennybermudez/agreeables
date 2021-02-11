@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mp3List>
+	<item id="1">
+		<title><![CDATA[Modern Family]]></title>
+		<artist><![CDATA[The Agreeables]]></artist>
+		<!-- set the text and price for the download button -->
+		<!-- if you'll set the price to 0, it will not appear on the button -->
+		<!-- if you want to disable the download button, please set the price to 0 and give no text; just leave it blank -->
+		<!-- this is an example -->
+		<buy url = "http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/download.php?f=http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/Modern_Family_The_Agreeables.mp3" target = "_blank">Free Download</buy>
+		<duration>01:59</duration>
+		<song>http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/Modern_Family_The_Agreeables.mp3</song>
+	</item>
+	<item id="2">
+		<title><![CDATA[Lift Him Up]]></title>
+		<artist><![CDATA[The Agreeables]]></artist>
+		<!-- set the text and price for the download button -->
+		<!-- if you'll set the price to 0, it will not appear on the button -->
+		<!-- if you want to disable the download button, please set the price to 0 and give no text; just leave it blank -->
+		<!-- this is an example -->
+		<buy url = "http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/download.php?f=http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/Lift-Him-Up-The-Agreeables.mp3" target = "_blank">Free Download</buy>
+		<duration>02:39</duration>
+		<song>http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/Lift-Him-Up-The-Agreeables.mp3</song>
+	</item>
+	<item id="3">
+		<title><![CDATA[Pink Party Dress]]></title>
+		<artist><![CDATA[The Agreeables]]></artist>
+		<!-- set the text and price for the download button -->
+		<!-- if you'll set the price to 0, it will not appear on the button -->
+		<!-- if you want to disable the download button, please set the price to 0 and give no text; just leave it blank -->
+		<!-- this is an example -->
+		<buy url = "http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/download.php?f=http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/PinkPartyDress66.mp3" target = "_blank">Free Download</buy>
+		<duration>03:47</duration>
+		<song>http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/PinkPartyDress66.mp3</song>
+	</item>
+	<item id="4">
+		<title><![CDATA[I'd Fly Away]]></title>
+		<artist><![CDATA[The Agreeables]]></artist>
+		<!-- set the text and price for the download button -->
+		<!-- if you'll set the price to 0, it will not appear on the button -->
+		<!-- if you want to disable the download button, please set the price to 0 and give no text; just leave it blank -->
+		<!-- this is an example -->
+		<buy url = "http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/download.php?f=http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/IdFlyAway-101711d.mp3" target = "_blank">Free Download</buy>
+		<duration>02:52</duration>
+		<song>http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/IdFlyAway-101711d.mp3</song>
+	</item>
+	<item id="5">
+		<title><![CDATA[Coastal Water Forecast]]></title>
+		<artist><![CDATA[The Agreeables]]></artist> <!-- if you want this item to have a different artist(for example featuring artist write the text in this tag -->
+		<!-- set the text and price for the download button -->
+		<!-- if you'll set the price to 0, it will not appear on the button -->
+		<!-- if you want to disable the download button, please set the price to 0 and give no text; just leave it blank -->
+		<buy url = "http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/download.php?f=http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/Coastal_Water_Forecast.mp3" target = "_blank">Free Download</buy>
+		<duration>05:18</duration>
+		<song>http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/Coastal_Water_Forecast.mp3</song>
+	</item>
+	<item id="6">
+		<title><![CDATA[Remember the Time]]></title>
+		<artist><![CDATA[The Agreeables]]></artist>
+		<!-- set the text and price for the download button -->
+		<!-- if you'll set the price to 0, it will not appear on the button -->
+		<!-- if you want to disable the download button, please set the price to 0 and give no text; just leave it blank -->
+		<!-- this is an example -->
+		<buy url = "http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/download.php?f=http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/remember_the_time_rocked.mp3" target = "_blank">Free Download</buy>
+		<duration>04:30</duration>
+		<song>http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/content/songs/remember_the_time_rocked.mp3</song>
+	</item>
+</mp3List>

@@ -1,0 +1,656 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <!-- DEFAULT VARIABLES -->
+    <meta name="color:Background" content="#3b627e" />
+    
+    <meta name="font:Title" content="Arial" />
+    <meta name="font:Body" content="Arial" />
+    <meta name="font:Accent" content="Lucida Sans" />
+    
+    <meta name="if:Show People I Follow" content="1" />
+    <meta name="if:Show Tags" content="1" />
+    <meta name="if:Show Album Art on Audio Posts" content="1" />
+    <meta name="if:Enable Jump Pagination" content="0" />
+    
+    <meta name="text:Disqus Shortname" content="" />
+    
+    <meta name="image:Header" content="" />
+    <meta name="image:Background" content="" />
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{Title}{block:SearchPage}, {lang:Search results for SearchQuery}{/block:SearchPage}{block:PostSummary}, {PostSummary}{/block:PostSummary}</title>
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+    <link rel="shortcut icon" href="{Favicon}" />
+    <link rel="apple-touch-icon" href="{PortraitURL-128}"/>
+    <link rel="alternate" type="application/rss+xml" href="{RSS}" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+    <script language="javascript" type="text/javascript">
+	 function playSound(soundfile) {
+	 document.getElementById("dummy").innerHTML=
+	 "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+	 }
+	 </script>
+   
+ <script type="text/javascript" src="http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/js/swfobject.js"></script>    
+
+<script type="text/javascript">
+
+		// JAVASCRIPT VARS
+		// cache buster
+		var cacheBuster = "?t=" + Date.parse(new Date());		
+		
+		// stage dimensions
+		var stageW = 269//"100%"; // minimum is 450
+		var stageH = 432;//"100%"; // minimum is 260
+		
+		
+		// ATTRIBUTES
+	    var attributes = {};
+	    attributes.id = 'FlashComponent';
+	    attributes.name = attributes.id;
+	    
+		// PARAMS
+		var params = {};
+		params.bgcolor = "#333333";
+		params.allowfullscreen = "true";
+		params.allowScriptAccess = "always";			
+		params.wmode = "transparent";
+		
+
+	    /* FLASH VARS */
+		var flashvars = {};
+		
+		/// if commented / delete these lines, the component will take the stage dimensions defined 
+		/// above in "JAVASCRIPT SECTIONS" section or those defined in the settings xml			
+		flashvars.componentWidth = stageW-2;
+		flashvars.componentHeight = stageH-2;							
+		
+		/// path to the content folder(where the xml files, images or video are nested)
+		/// if you want to use absolute paths(like "http://domain.com/images/....") then leave it empty("")
+		flashvars.pathToFiles = "http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/mp3playerwithplaylist/";
+		flashvars.xmlPath = "xml/settings.xml";
+		flashvars.contentPath = "xml/mp3playerwithplaylist.xml";
+					
+		/** EMBED THE SWF**/
+		swfobject.embedSWF("http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/preview.swf"+cacheBuster, attributes.id, stageW, stageH, "9.0.124", "http://www.baddaddythemusical.com/the_agreeables/mp3/project/deploy/js/expressInstall.swf", flashvars, params);
+		if(swfmacmousewheel) swfmacmousewheel.registerObject(attributes.id);
+	</script>
+
+
+<link rel="stylesheet" href="http://www.baddaddythemusical.com/the_agreeables/css/agreeables.css" type="text/css" media="screen" />
+
+<!--[if lt IE 7.]>
+<style type="text/css">
+
+#wrapper #sidebar #bottom {
+	background: transparent;
+}
+            
+#wrapper #sidebar #top #avatar {
+	background: none;
+}
+            
+#wrapper #sidebar #top #avatar img {
+	border: 5px solid #f1f1f1;
+}
+            
+#wrapper #sidebar #top .heading#followontumblr {
+	background-image: none;
+	text-indent: 0;
+}
+        
+#wrapper #sidebar #top .heading#twitter {
+	background-image: none;
+}
+        
+#wrapper #sidebar #top .heading#following {
+	background-image: none;
+}
+
+#wrapper #content .post .audio .player {
+	float: none;
+}
+            
+#wrapper #content .post .audio .meta {
+	display: none;
+	float: none;
+            }
+</style>
+<![endif]-->
+    
+<!--[if lt IE 8.]>
+<style type="text/css">
+
+#wrapper #content .bottom {
+	background: transparent;
+}
+            
+#wrapper #content .post .footer {
+	background: transparent;
+	color: #000;
+}
+            
+#wrapper #content .post .audio {
+	float: none;
+	background: transparent;
+}
+            
+#wrapper #content .post .notecontainer .notes {
+	padding: 0;
+	margin: 0;
+}
+</style>
+<![endif]-->
+    <style type="text/css">{CustomCSS}</style>
+</head>
+<body onload="('http://www.baddaddythemusical.com/the_agreeables/camille_tambo.mp3',http://www.baddaddythemusical.com/the_agreeables/rick_guitar.mp3')">
+<span id="dummy"></span>
+    <div id="wrapper">
+    	<div id="facebook_like_blast">
+        	<div id="facebook_like_button"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fhome.php%23%21%2Fpages%2FThe-Agreeables%2F142639435799065&amp;layout=button_count&amp;show_faces=false&amp;width=85&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true"></iframe></div>
+        </div>
+        <div id="header">
+        	<div id="audio_rick"><img src="http://www.baddaddythemusical.com/the_agreeables/images/button_rick.png" /></div>
+            <div id="audio_camille"><img src="http://www.baddaddythemusical.com/the_agreeables/images/button_camille.png" /></div>
+        </div>
+        <div id="nav_bar">
+        	<ul id="main_nav">
+            	<li><a href="http://theagreeables.com">HOME</a></li>
+                <li><a href="http://theagreeables.com/tagged/songs">SONGS</a></li>
+                <li><a href="http://theagreeables.com/tagged/pics">PICS</a></li>
+                <li><a href="http://theagreeables.com/tagged/text">TEXT</a></li>
+                <li><a href="http://theagreeables.com/tagged/quotes">QUOTES</a></li>
+                <li><a href="http://theagreeables.com/tagged/links">LINKS</a></li>
+                <li><a href="http://theagreeables.com/tagged/videos">VIDEOS</a></li>
+                <li><a href="http://theagreeables.com/tagged/chat">CHAT</a></li>
+                <li><a href="http://theagreeables.com/about-the-agreeables">ABOUT</a></li>
+            </ul>
+        </div>
+        <div id="mp3_player">
+            <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+                <td align="center">
+                    
+                    <!-- this div will be overwritten by SWF object -->		
+                    <div id="FlashComponent">
+                        <p>In order to view this object you need Flash Player 9+ support!</p>
+                        <a href="http://www.adobe.com/go/getflashplayer">
+                            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
+                        </a>
+                    </div>
+                </td>
+            </table>
+        </div>
+        
+  <div id="content">
+            
+            {block:SearchPage}
+                {block:SearchResults}
+                    <div id="searchresults">{lang:SearchResultCount results for SearchQuery 2}</div>
+                {/block:SearchResults}
+                
+                {block:NoSearchResults}
+                    <div id="searchresults">{lang:No search results for SearchQuery 2}</div>
+                {/block:NoSearchResults}
+            {/block:SearchPage}
+            
+            {block:Posts}
+                <div class="post">
+                <div class="web_like"><iframe src="http://www.facebook.com/plugins/like.php?href={URLEncodedPermalink};&amp;layout=button_count&amp;show_faces=false&amp;width=53&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:53px; height:21px;" allowTransparency="true"></iframe></div>
+  
+<!--- Photo --->
+                    
+            {block:Photo}
+				<div class="content">
+					<div class="contentTop">
+						<div class="marker photo"><a href="{Permalink}"><img src="http://www.baddaddythemusical.com/the_agreeables/images/category_pics.png" /></a></div>
+					</div>
+					<div class="contentRep">
+						{LinkOpenTag}<div class="photoset"><img src="{PhotoURL-500}" alt="{PhotoAlt}" /></div>{LinkCloseTag}
+						{block:Title}<h3 class="league"><a href="{Permalink}">{Title}</a></h3>{/block:Title}
+						{block:Caption}{Caption}{block:Caption}
+						{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+						{block:RebloggedFrom}<a href="{ReblogParentURL}"><span>Via {ReblogParentTitle}</a></span>{/block:RebloggedFrom}
+						<div class="clear"></div>
+					</div>
+					<div class="nonSub">
+						
+						
+						{block:IfAllowDisqusComments}<div class="displaynone">{/block:IfAllowDisqusComments}
+                       
+							<div class="comments"><a href="{Permalink}">Permalink</a></div>
+						{block:IfAllowDisqusComments}</div>{/block:IfAllowDisqusComments}
+						
+						{block:IfAllowDisqusComments}
+							<div class="comments"><a class="dsq-comment-count" href="{Permalink}#disqus_thread">Comments</a></div>
+						{/block:IfAllowDisqusComments}
+						
+						<div class="clear"></div>
+						</div>
+					<div class="contentBot"></div>
+				</div>
+				{/block:Photo}
+
+<!--- Photo Set --->
+
+				{block:Photoset}
+				<div class="content">
+					<div class="contentTop">
+						<div class="marker photo"><a href="{Permalink}"><img src="http://www.baddaddythemusical.com/the_agreeables/images/category_pics.png" /></a></div>
+						
+				  </div>
+					<div class="contentRep">
+						<div class="photoset">{Photoset-500}</div>
+                        {block:Caption}{Caption}{/block:Caption}
+                        {block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+                        {block:RebloggedFrom}<a href="{ReblogParentURL}"><span>Via {ReblogParentTitle}</a></span>{/block:RebloggedFrom}
+						<div class="clear"></div>
+					</div>
+					<div class="nonSub">
+						
+						{block:IfAllowDisqusComments}<div class="displaynone">{/block:IfAllowDisqusComments}
+							<div class="comments"><a href="{Permalink}">Permalink</a></div>
+						{block:IfAllowDisqusComments}</div>{/block:IfAllowDisqusComments}
+						
+						{block:IfAllowDisqusComments}
+							<div class="comments"><a class="dsq-comment-count" href="{Permalink}#disqus_thread">Comments</a></div>
+						{/block:IfAllowDisqusComments}
+						
+						<div class="clear"></div>
+						</div>
+					<div class="contentBot"></div>
+				</div>
+				{/block:Photoset}
+                   
+<!--- Video --->
+
+			{block:Video}
+				<div class="content">
+					<div class="contentTop">
+						<div class="marker video"><a href="{Permalink}"><img src="http://www.baddaddythemusical.com/the_agreeables/images/category_videos.png" /></a></div>
+						
+						
+					</div>
+					<div class="contentRep">
+						{Video-500}
+                        
+					</div>
+					<div class="contentBot"></div>
+					<div class="subInfo">
+						<div class="subTop"></div>
+						<div class="subRep">
+							<div class="subText">
+							{block:Title}<h3 class="league"><a href="{Permalink}">{Title}</a></h3>{/block:Title}
+							{block:Caption}{Caption}{block:Caption}
+							{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+							{block:RebloggedFrom}<a href="{ReblogParentURL}"><span>Via {ReblogParentTitle}</a></span>{/block:RebloggedFrom}
+							</div>
+							
+							
+							{block:IfAllowDisqusComments}<div class="displaynone">{/block:IfAllowDisqusComments}
+                            
+							<div class="comments"><a href="{Permalink}">Permalink</a></div>
+                            
+							{block:IfAllowDisqusComments}</div>{/block:IfAllowDisqusComments}
+							
+							{block:IfAllowDisqusComments}
+								<div class="comments"><a class="dsq-comment-count" href="{Permalink}#disqus_thread">Comments</a></div>
+							{/block:IfAllowDisqusComments}
+							
+							<div class="clear"></div>
+						</div>
+						<div class="subBot"></div>
+					</div>
+				</div>
+				{/block:Video}
+				
+<!--- Audio ---> 
+                    {block:Audio}
+				<div class="content">
+					<div class="contentTop">
+						<div class="marker audio"><a href="{Permalink}"><img src="http://www.baddaddythemusical.com/the_agreeables/images/category_songs.png" /></a></div>
+						
+						
+					</div>
+					<div class="contentRep">
+                        <div class="album_cover">
+                            {block:AlbumArt}
+                            <img src={AlbumArtURL} />
+                            {/block:AlbumArt}
+                        </div>
+						<div class="player">{AudioPlayerBlack}</div>
+						<div class="trackinfo">
+						<h4 class="league">
+						{block:TrackName}<div class="track"><p>{TrackName}</p></div>{/block:TrackName}
+                        {block:Artist}<div class="artist"><p>|&nbsp;&nbsp;{Artist}</p></div>{/block:Artist}</h4>
+                        <div class="clear"></div>
+						</div>
+						{block:Title}<h3 class="league"><a href="{Permalink}">{Title}</a></h3>{/block:Title}
+						{block:Caption}{Caption}{block:Caption}
+						{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+						{block:RebloggedFrom}<a href="{ReblogParentURL}"><span>Via {ReblogParentTitle}</a></span>{/block:RebloggedFrom}
+						<div class="clear"></div>
+					</div>
+					<div class="nonSub">
+						
+						
+						{block:IfAllowDisqusComments}<div class="displaynone">{/block:IfAllowDisqusComments}
+							<div class="comments"><a href="{Permalink}">Permalink</a></div>
+						{block:IfAllowDisqusComments}</div>{/block:IfAllowDisqusComments}
+						
+						{block:IfAllowDisqusComments}
+						<div class="comments"><a class="dsq-comment-count" href="{Permalink}#disqus_thread">Comments</a></div>
+						{/block:IfAllowDisqusComments}
+						
+						<div class="clear"></div>
+						</div>
+					<div class="contentBot"></div>
+				</div>
+				{/block:Audio}
+				
+                    
+<!--- Quote --->
+                  
+                    {block:Quote}
+                    <div class="contentTop">
+						<div class="marker quote"><a href="{Permalink}"><img src="http://www.baddaddythemusical.com/the_agreeables/images/category_quotes.png" /></a></div>
+                    </div>
+                        <div class="quote {Length}">{Quote}</div>
+                        <div class="copy">
+                            <div class="quotebg">“</div>
+                            {block:Source}
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td valign="top" style="width:20px;"></td>
+                                        <td valign="top" class="quote_source">
+                                            {Source}
+                                        </td>
+                                    </tr>
+                                </table>
+                            {/block:Source}
+                            <div class="comments"><a href="{Permalink}">Permalink</a></div>
+                  </div>
+                    {/block:Quote}
+  
+<!--- Text --->
+                    {block:Text}
+                    <div class="contentTop">
+						<div class="marker text"><a href="{Permalink}"><img src="http://www.baddaddythemusical.com/the_agreeables/images/category_text.png" /></a></div>
+					</div>
+                   
+                       {block:Title}<div class="title">{Title}</div>{/block:Title}
+                       <div class="copy">{Body}</div>
+                       <div class="comments"><a href="{Permalink}">Permalink</a></div>
+                  {/block:Text}
+                    
+                    {block:Answer}
+                        <div class="question">
+                            <div class="nipple"></div>
+                            {Question}
+                        </div>
+                        <div class="asker_container"><img src="{AskerPortraitURL-24}">{Asker}</div>
+                        <div class="copy">{Answer}</div>
+                        
+                    {block:Answer}
+
+<!--- Chat --->
+
+				{block:Chat}
+				<div class="content">
+					<div class="contentTop">
+						<div class="marker chat"><a href="{Permalink}"><img src="http://www.baddaddythemusical.com/the_agreeables/images/category_chat.png" /></a></div>
+						
+					</div>
+					<div class="contentRep_chat" id="nolist">
+						{block:Title}<h3 class="league"><a href="{Permalink}">{Title}</a></h3>{/block:Title}
+						<div class="chat">
+                            <div class="lines">
+                                {block:Lines}
+                                    <div class="line {Alt}">{block:Label}<strong>{Label}</strong>{/block:Label} {Line}</div>
+                                {/block:Lines}
+                            </div>
+                        </div>
+						{block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+						{block:RebloggedFrom}<a href="{ReblogParentURL}"><span>Via {ReblogParentTitle}</a></span>{/block:RebloggedFrom}
+						<div class="clear"></div>
+					</div>
+					<div class="nonSub">						
+						{block:IfAllowDisqusComments}<div class="displaynone">{/block:IfAllowDisqusComments}
+							<div class="comments"><a href="{Permalink}">Permalink</a></div>
+						{block:IfAllowDisqusComments}</div>{/block:IfAllowDisqusComments}
+						
+						{block:IfAllowDisqusComments}
+							<div class="comments"><a class="dsq-comment-count" href="{Permalink}#disqus_thread">Comments</a></div>
+						{/block:IfAllowDisqusComments}
+						
+						<div class="clear"></div>
+						</div>
+                        
+					<div class="contentBot"></div>
+				</div>
+				{/block:Chat}
+                    
+<!--- Link --->
+				{block:Link}
+				<div class="content">
+					<div class="contentTop">
+						<div class="marker link"><a href="{Permalink}"><img src="http://www.baddaddythemusical.com/the_agreeables/images/category_links.png" /></a></div>
+						
+					</div>
+					<div class="contentRep_link">
+						<h3 class="league"><a href="{URL}" {Target}>{Name}</a></h3>
+						{block:Description} 
+                            {Description}
+                        {/block:Description}
+                        {block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
+                        {block:RebloggedFrom}<a href="{ReblogParentURL}"><span>Via {ReblogParentTitle}</a></span>{/block:RebloggedFrom}
+						<div class="clear"></div>
+					</div>
+					<div class="nonSub">
+						
+						{block:IfAllowDisqusComments}<div class="displaynone">{/block:IfAllowDisqusComments}
+							<div class="comments"><a href="{Permalink}">Permalink</a></div>
+						{block:IfAllowDisqusComments}</div>{/block:IfAllowDisqusComments}
+						
+						{block:IfAllowDisqusComments}
+							<div class="comments"><a class="dsq-comment-count" href="{Permalink}#disqus_thread">Comments</a></div>
+						{/block:IfAllowDisqusComments}
+						
+						<div class="clear"></div>
+						</div>
+					<div class="contentBot"></div>
+				</div>
+				{/block:Link}
+                    
+                    {block:Date}
+                        <a href="{Permalink}">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    {block:Reblog}
+                                        {lang:Reblogged TimeAgo from ReblogParentName} {block:RebloggedFromReblog}(<span style="text-transform:lowercase;">{lang:Originally from ReblogRootName}</span>){/block:RebloggedFromReblog}
+                                    {/block:Reblog}
+                                    
+                                    {block:NotReblog}
+                                        {lang:Posted TimeAgo from source}
+                                    {/block:NotReblog}
+                                </div>
+                                <div class="notes">{block:NoteCount}{NoteCountWithLabel}{/block:NoteCount} {block:IfDisqusShortname}{block:NoteCount}&bull;{/block:NoteCount} <a href="{Permalink}#disqus_thread">{lang:View comments}</a>{/block:IfDisqusShortname}</div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    {/block:Date}
+                    
+                    <div class="footer {block:ContentSource}with_source_url{/block:ContentSource}" style="
+                        display:none;
+                        {block:IfShowTags}{block:HasTags}display:block;{/block:HasTags}{/block:IfShowTags}
+                        {block:ContentSource}display:block;{/block:ContentSource}
+                    ">
+                        {block:IfShowTags}
+                            {block:HasTags}<div class="tags">{lang:Tagged}: {block:Tags}<a href="{TagURL}">{Tag}</a><span class="tag-commas">, </span>{/block:Tags}.</div>{/block:HasTags}
+                        {/block:IfShowTags}
+                        
+                        {block:ContentSource}
+                            <a href="{SourceURL}" class="source_url">
+                                {lang:Source}:
+                                {block:SourceLogo}<img src="{BlackLogoURL}" width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />{/block:SourceLogo}
+                                {block:NoSourceLogo}{SourceTitle}{/block:NoSourceLogo}
+                            </a>
+                        {/block:ContentSource}
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    {block:PostNotes}<div class="notecontainer">{PostNotes}</div>{/block:PostNotes}
+                    
+                    {block:IfDisqusShortname}
+                        {block:Permalink}
+                            <div class="notecontainer" style="margin:20px 0 1px 0; padding:1px 10px 10px 10px;">
+                                <div id="disqus_thread"></div>
+                                <script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
+                                <noscript><a href="http://{text:Disqus Shortname}.disqus.com/?url=ref">{lang:View the discussion thread}</a></noscript>
+                            </div>
+                            <div style="text-align:right; margin-top:5px;">
+                                {lang:Blog comments powered by Disqus 2}
+                            </div>
+                        {/block:Permalink}
+                    {/block:IfDisqusShortname}
+                    
+                </div>
+                <div class="bottom"></div>
+                
+            {/block:Posts}
+            
+            {block:Pagination}
+                <div id="navigation" {block:IfEnableJumpPagination}class="jump_pagination"{/block:IfEnableJumpPagination}>
+                    {block:PreviousPage}<a href="{PreviousPage}">&larr; {lang:Previous}</a>{/block:PreviousPage}
+                    
+                    {block:IfEnableJumpPagination}
+                        {block:JumpPagination length="5"}
+                            {block:CurrentPage}
+                                <span class="current_page">{PageNumber}</span>
+                            {/block:CurrentPage}
+                            
+                            {block:JumpPage}
+                                <a class="jump_page" href="{URL}">{PageNumber}</a>
+                            {/block:JumpPage}
+                            
+                        {/block:JumpPagination}
+                    {/block:IfEnableJumpPagination}
+                    
+                    {block:NextPage}<a href="{NextPage}">{lang:Next page} &rarr;</a>{/block:NextPage}
+                </div>
+            {/block:Pagination}
+            
+        </div>
+        
+        <div id="sidebar">
+            <div id="top">
+                <div id="description">{Description}</div>
+                
+                <div id="pages" class="ask_and_submit">
+                    {block:AskEnabled}<a href="/ask" class="page">{AskLabel}</a>{/block:AskEnabled}
+                    {block:SubmissionsEnabled}<a href="/submit" class="page">{SubmitLabel}</a>{/block:SubmissionsEnabled}
+                    <div class="clear"></div>
+                </div>
+                
+                {block:HasPages}
+                    <div id="pages">
+                        {block:Pages}<a href="{URL}" class="page">{Label}</a>{/block:Pages}
+                        <div class="clear"></div>
+                    </div>
+                {/block:HasPages}
+                
+                <div id="search">
+                    <form action="/search" method="get" id="search-form">
+                        <input type="hidden" name="t" value="{Name}" />
+                        <input type="hidden" name="scope" value="all_of_tumblr" />
+                        <input type="text" name="q" class="query" value="{SearchQuery}" />
+                        <input type="submit" value="{lang:Search}" class="submit" />
+                        <div class="clear"></div>
+                    </form>
+                </div>
+                <div id="search-scope">
+                    <input type="radio" id="search-scope-me" name="scope" checked onclick="document.getElementById('search-form').action='/search'" /> <label for="search-scope-me" onclick="document.getElementById('search-form').action='/search'">{lang:My blog}</label>
+                    <input type="radio" id="search-scope-all" name="scope" onclick="document.getElementById('search-form').action='http://www.tumblr.com/search'" /> <label for="search-scope-all" onclick="document.getElementById('search-form').action='http://www.tumblr.com/search'">{lang:All of Tumblr}</label>
+                </div>
+                
+                <a href="http://www.tumblr.com/follow/{Name}"><div class="heading" id="followontumblr">{lang:Follow on Tumblr}</div></a>
+                
+                
+                {block:IfShowPeopleIFollow}
+                    {block:Following}
+                        <div class="heading" id="following">{lang:Following}</div>
+                        <div class="content" id="following-avatars">
+                            {block:Followed}<a href="{FollowedURL}"><img src="{FollowedPortraitURL-40}" /></a>{/block:Followed}
+                        </div>
+                    {/block:Following}
+                {/block:IfShowPeopleIFollow}
+                
+                <div id="buttons">
+                    <div class="row">
+                        <div class="button" id="button-rss"><a href="{RSS}">{lang:RSS feed}</a></div>
+                        <div class="button" id="button-random"><a href="/random">{lang:Random}</a></div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="row">
+                    	<div class="facebook_mini"><img src="http://www.baddaddythemusical.com/the_agreeables/images/button_facebook_mini.png" /></div>
+                        <div class="twitter_mini"><img src="http://www.baddaddythemusical.com/the_agreeables/images/button_twitter_mini.png" /></div>
+                        <div class="button" id="button-archive"><a href="/archive">{lang:Archive}</a></div>
+                        <div class="button" id="button-mobile"><a href="/mobile">{lang:Mobile}</a></div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="row">
+                        <div class="button" id="button-facebook"><a href="http://www.facebook.com/pages/The-Agreeables/142639435799065">Facebook</a></div>
+                        <div class="button" id="button-twitter"><a href="http://twitter.com/theagreeables">Twitter</a></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+            </div>
+
+            
+        </div>
+        
+        <div class="clear"></div>
+    </div>
+    
+    {block:Twitter}
+        <script type="text/javascript" src="/tweets.js"></script>
+    {/block:Twitter}
+    
+    {block:IfDisqusShortname}
+        <script type="text/javascript">
+            //<![CDATA[
+            (function() {
+                var links = document.getElementsByTagName('a');
+                var query = '?';
+                for(var i = 0; i < links.length; i++) {
+                    if(links[i].href.indexOf('#disqus_thread') >= 0) {
+                        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+                    }
+                }
+                document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/get_num_replies.js' + query + '"></' + 'script>');
+            })();
+            //]]>
+        </script>
+    {/block:IfDisqusShortname}
+    <!-- Start of StatCounter Code -->
+	<script type="text/javascript">
+    var sc_project=6679446; 
+    var sc_invisible=1; 
+    var sc_security="4f2882c0"; 
+    </script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	$('.html_photoset').each(function() { 
+		var html = $(this).html(); 
+		var newPlayer = html.replace(/<embed\s/i, "<embed wmode='opaque' "); 
+		$(this).html(newPlayer);
+	});
+});
+</script> 
+
+</body>
+</html>
